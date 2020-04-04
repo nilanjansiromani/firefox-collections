@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "test": "web-ext"
   },
   "author": "Nilanjan Siromani",
   "license": "ISC",
