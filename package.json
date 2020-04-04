@@ -1,0 +1,19 @@
+{
+  "name": "firefox-collections",
+  "version": "1.0.0",
+  "description": "Firefox Collections Extensions",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "author": "Nilanjan Siromani",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
