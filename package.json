@@ -6,11 +6,13 @@
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html",
-    "test": "web-ext"
+    "test": "jest",
+    "run": "web-ext"
   },
   "author": "Nilanjan Siromani",
   "license": "ISC",
   "dependencies": {
+    "jest": "^25.2.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
